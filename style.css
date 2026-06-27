@@ -17,11 +17,19 @@
 }
 
 .container {
-    position: relative;
     display: block;
     width: 100vw;
     text-align: center;
     padding-inline: 1.5rem;
+}
+
+.section {
+    position: relative;
+    display: block;
+    max-width: 880px;
+    text-align: center;
+    padding: 1.5rem;
+    margin-inline: auto;
 }
 
 .header__image {
