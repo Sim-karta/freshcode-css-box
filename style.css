@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+.header {
+    position: relative;
+    display: block;
+    width: 100vw;
+    padding-block: 100px;
+    background-color: #333333;
+    z-index: -2;
+}
+
 .container {
     display: block;
     width: 100vw;
@@ -12,10 +21,24 @@
     padding-inline: 1.5rem;
 }
 
+.header__image {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+    background-image: url(./assets/bg-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: -1;
+    opacity: 0.8;
+}
+
 .header__title {
     display: block;
     font-size: 2rem;
-    margin: 100px 0px 1rem 0px;
+    margin-bottom: 1rem;
 }
 
 .header__sub-title {
@@ -25,6 +48,6 @@
 
 .header__link {
     display: inline-block;
-    margin-block: 0.5rem 100px;
+    margin-top: 0.5rem;
     padding: 1rem;
 }
