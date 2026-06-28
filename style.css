@@ -8,7 +8,6 @@
 
 .container {
     display: block;
-    width: 100vw;
     text-align: center;
     padding-inline: 1.5rem;
 }
