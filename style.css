@@ -6,13 +6,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container {
+.section {
     display: block;
     text-align: center;
     padding-inline: 1.5rem;
 }
 
-.container--dark {
+.section--dark {
     background-color: #333333;
 }
 
@@ -58,7 +58,7 @@
     border: #666 1px solid;
 }
 
-.section {
+.container {
     position: relative;
     display: block;
     max-width: 880px;
@@ -67,13 +67,13 @@
     margin-inline: auto;
 }
 
-.section__title {
+.container__title {
     display: block;
     font-size: 1.5rem;
     padding-bottom: 1.5rem;
 }
 
-.section__content {
+.container__content {
     column-count: 2;
     column-gap: 2rem;
 }
