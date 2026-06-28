@@ -167,3 +167,33 @@
     text-decoration: underline;
     color: #d2d2d2;
 }
+
+.footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 0;
+    padding: 2rem;
+}
+
+.footer__box {
+    display: inline-block;
+    width: 50%;
+    font-size: initial;
+}
+
+.footer__box-label {
+    display: inline;
+}
+
+.footer__box-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #2690d4;
+    transition-duration: 0.2s;
+}
+
+.footer__box-link:hover {
+    text-decoration: underline;
+    color: #d2d2d2;
+}
