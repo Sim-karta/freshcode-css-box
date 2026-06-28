@@ -64,13 +64,26 @@
     max-width: 880px;
     text-align: center;
     padding: 1.5rem;
+    padding-bottom: 2rem;
     margin-inline: auto;
+}
+
+.container--big {
+    padding: 2rem;
 }
 
 .container__title {
     display: block;
     font-size: 1.5rem;
     padding-bottom: 1.5rem;
+}
+
+.container__title--high {
+    padding-top: 1.5rem;
+}
+
+.container__content {
+    padding-block: 1rem;
 }
 
 .container__content--two-columns {
