@@ -16,7 +16,6 @@
 .header {
     position: relative;
     display: block;
-    width: 100vw;
     padding-block: 150px 150px;
     background-color: #333333;
     color: #fff;
