@@ -73,7 +73,7 @@
     padding-bottom: 1.5rem;
 }
 
-.container__content {
+.container__content--two-columns {
     column-count: 2;
     column-gap: 2rem;
 }
